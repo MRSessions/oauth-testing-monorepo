@@ -43,6 +43,4 @@ app.MapGet("/Security/GetWindowsToken", ([FromQuery] string domain, string userN
     .WithName("GetToken")
     .WithOpenApi();
     
-    
-
 app.Run();

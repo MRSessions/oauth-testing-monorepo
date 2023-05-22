@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a96d0ace-cc86-4980-9f19-050fa10f2467" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../vue-oauth-ui/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/services/oauth/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/views/auth-flows/LoginRedirect.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/bin/Debug/net7.0/dotnet-oauth-api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/bin/Debug/net7.0/dotnet-oauth-api.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/bin/Debug/net7.0/dotnet-oauth-api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/bin/Debug/net7.0/dotnet-oauth-api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/bin/Debug/net7.0/dotnet-oauth-api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/bin/Debug/net7.0/dotnet-oauth-api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/bin/Debug/net7.0/dotnet-oauth-api.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/bin/Debug/net7.0/dotnet-oauth-api.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.GlobalUsings.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/dotnet-oauth-api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/staticwebassets/msbuild.build.dotnet-oauth-api.props" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/staticwebassets/msbuild.build.dotnet-oauth-api.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.dotnet-oauth-api.props" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.dotnet-oauth-api.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.dotnet-oauth-api.props" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.dotnet-oauth-api.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/dotnet-oauth-api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/dotnet-oauth-api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/dotnet-oauth-api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/dotnet-oauth-api.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/dotnet-oauth-api.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/dotnet-oauth-api.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dotnet-oauth-api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../dotnet-oauth-api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.browserslistrc" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/.browserslistrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/bun.lockb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/assets/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/auth-view-components/token-info-expansion-panel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/components/auth-view-components/token-info-expansion-panel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/auth-view-components/user-info-expansion-panel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/components/auth-view-components/user-info-expansion-panel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/default/AppBar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/layouts/default/AppBar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/default/Default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/layouts/default/Default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/default/View.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/layouts/default/View.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/plugins/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/vuetify.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/plugins/vuetify.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugins/webfontloader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/plugins/webfontloader.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/oauth/jwt-mock.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/services/oauth/jwt-mock.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/oauth/oauth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/services/oauth/oauth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/store/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/store/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/auth-flows/DirectAccess.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/views/auth-flows/DirectAccess.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/auth-flows/StandardFlow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/views/auth-flows/StandardFlow.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vite-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/src/vite-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.node.json" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/tsconfig.node.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../vue-oauth-ui/vite.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Composition API Component" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../vue-oauth-ui/node_modules/oidc-client-ts/dist/types/oidc-client-ts.d.ts" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Q9MkQNmYEHXDmtmS25zdgNNd76" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\NCE4564\\source\\repos\\personal\\oauth-testing-monorepo\\vue-oauth-ui\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a96d0ace-cc86-4980-9f19-050fa10f2467" name="Changes" comment="" />
+      <created>1684761486373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684761486373</updated>
+      <workItem from="1684761488666" duration="23689000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

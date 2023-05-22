@@ -37,6 +37,11 @@ const routes = [
       },
     ],
   },
+  {
+    path: '/login-redirect',
+    name: 'LoginRedirect',
+    component: () => import('@/views/auth-flows/LoginRedirect.vue'),
+  }
 ]
 
 const router = createRouter({

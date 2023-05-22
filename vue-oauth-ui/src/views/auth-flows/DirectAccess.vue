@@ -2,21 +2,8 @@
 import { ref } from 'vue'
 import UserInfoExpansionPanel from "@/components/auth-view-components/user-info-expansion-panel.vue";
 import TokenInfoExpansionPanel from "@/components/auth-view-components/token-info-expansion-panel.vue";
+import { SigninResponse, DomainUser, OidcClient, directAuthFlow } from "@/services/oauth";
 
-//Most of the following is placeholder until I get the OAuth bits connected
-const dummyUser = ref({
-  profile: {
-    firstName: 'Matt',
-    lastName: 'Sessions',
-    email: 'matt.sessions@email.com',
-    domain: 'DOMAIN',
-    username: 'ABC1234'
-  },
-  accessToken: 'super duper long token lorem ipsum access token',
-  expires: 120,
-  idToken: 'id ipsum token of lorem',
-  refreshToken: 'lorem ipsum refresh token'
-})
 
 class User{
   constructor() {
@@ -37,9 +24,19 @@ function resetUserCredentials(){
   pageSettings.value.userCredentials = new User()
 }
 
+const authUser = ref<SigninResponse>()
+
 function login(){
-  resetUserCredentials()
-  pageSettings.value.isLoggedIn = true
+  directAuthFlow.loginDirect(pageSettings.value.userCredentials.Username, pageSettings.value.userCredentials.Password)
+    .then((user: SigninResponse) => {
+      authUser.value = user
+      resetUserCredentials()
+    })
+}
+
+function getChildDomain(domain: string | unknown){
+  if(domain)
+    return domain.toString().split('.')[0]
 }
 </script>
 
@@ -52,21 +49,22 @@ function login(){
           <v-card-text class="text-center">
             <p><strong>Description:</strong> This is a test of the Direct Access Authentication</p>
           </v-card-text>
-          <v-card-text v-if="!pageSettings.isLoggedIn">
+          <v-card-text v-if="!authUser?.profile">
             <v-text-field v-model="pageSettings.userCredentials.Username" label="User Name" />
-            <v-text-field v-model="pageSettings.userCredentials.Password" label="Password" />
+            <v-text-field v-model="pageSettings.userCredentials.Password" type="password" label="Password" />
             <v-btn :block="true" size="x-large" @click="login" color="hcaPrimary">Login</v-btn>
           </v-card-text>
-          <v-card-text v-if="pageSettings.isLoggedIn">
+          <v-card-text v-if="authUser?.profile">
             <v-expansion-panels :model-value="pageSettings.panel">
               <user-info-expansion-panel
-                v-bind="dummyUser.profile"
+                v-bind="authUser?.profile"
+                :domain="getChildDomain(authUser.profile?.domain)"
               />
               <token-info-expansion-panel
-                :access-token="dummyUser.accessToken"
-                :expires="dummyUser.expires"
-                :id-token="dummyUser.idToken"
-                :refresh-token="dummyUser.refreshToken"
+                :access-token="authUser?.access_token"
+                :expires="authUser?.expires_in"
+                :id-token="authUser?.id_token"
+                :refresh-token="authUser?.refresh_token"
               />
             </v-expansion-panels>
           </v-card-text>
