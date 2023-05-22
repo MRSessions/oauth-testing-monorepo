@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "XVrPti+ZxWM2evPOOSSPkYekkHP8iuPAIhn3eWs4f5ZLnf6GQQPU/cUaeBm/1pOjvQoErHBdWCMwdCcC2saQnQ==",
+  "success": true,
+  "projectFilePath": "/Users/mattsessions/repos/personal-repos/oauth-testing-monorepo/dotnet-oauth-api/dotnet-oauth-api.csproj",
+  "expectedPackageFiles": [
+    "/Users/mattsessions/.nuget/packages/jwt/10.0.2/jwt.10.0.2.nupkg.sha512",
+    "/Users/mattsessions/.nuget/packages/microsoft.aspnetcore.openapi/7.0.5/microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
+    "/Users/mattsessions/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/mattsessions/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",
+    "/Users/mattsessions/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/mattsessions/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
+    "/Users/mattsessions/.nuget/packages/system.text.json/6.0.7/system.text.json.6.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

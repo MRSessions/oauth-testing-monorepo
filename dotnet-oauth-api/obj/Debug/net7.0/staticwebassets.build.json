@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kWshmGWaJn7JkLxXBLzWTaInb59VOyDhLec6PsOsLXU=",
+  "Source": "dotnet-oauth-api",
+  "BasePath": "_content/dotnet-oauth-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

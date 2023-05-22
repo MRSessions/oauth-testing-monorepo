@@ -19,6 +19,10 @@ const dummyUser = ref({
 })
 
 class User{
+  constructor() {
+    this.Username = ''
+    this.Password = ''
+  }
   Username: String
   Password: String
 }
@@ -51,7 +55,7 @@ function login(){
           <v-card-text v-if="!pageSettings.isLoggedIn">
             <v-text-field v-model="pageSettings.userCredentials.Username" label="User Name" />
             <v-text-field v-model="pageSettings.userCredentials.Password" label="Password" />
-            <v-btn block="true" size="x-large" @click="login" color="hcaPrimary">Login</v-btn>
+            <v-btn :block="true" size="x-large" @click="login" color="hcaPrimary">Login</v-btn>
           </v-card-text>
           <v-card-text v-if="pageSettings.isLoggedIn">
             <v-expansion-panels :model-value="pageSettings.panel">

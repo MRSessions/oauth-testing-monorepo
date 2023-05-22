@@ -1,7 +1,21 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import UserInfoExpansionPanel from "@/components/auth-view-components/user-info-expansion-panel.vue";
 import TokenInfoExpansionPanel from "@/components/auth-view-components/token-info-expansion-panel.vue";
+import { ref } from 'vue'
+import { OauthUser, DomainUser, UserManager, AuthenticateStandardFlow } from "@/services/oauth/oauth";
+
+const settings = new UserManager({
+  authority: "",
+  client_id: "",
+  redirect_uri: "",
+  response_type: "",
+  scope: ""
+})
+
+const auth = new AuthenticateStandardFlow(settings)
+auth.login().then((user: OauthUser) => {
+  console.log(user)
+})
 
 const dummyUser = ref({
   profile: {
@@ -37,7 +51,7 @@ function login(){
             <p><strong>Description:</strong> This is a test of the Standard Flow Redirect Authentication</p>
           </v-card-text>
           <v-card-text class="text-center" v-if="!pageSettings.isLoggedIn">
-            <v-btn block="true" size="x-large" @click="login" color="hcaPrimary">Login</v-btn>
+            <v-btn :block="true" size="x-large" @click="login" color="hcaPrimary">Login</v-btn>
           </v-card-text>
           <v-card-text v-if="pageSettings.isLoggedIn">
             <v-expansion-panels :model-value="pageSettings.panel">
